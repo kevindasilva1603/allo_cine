@@ -1,0 +1,564 @@
+h1 {
+    text-align: center;
+    font-size: 1.5625rem;
+    color: #333;
+    text-transform: uppercase;
+    padding: 1.25rem 0.625rem 0;
+    font-weight: bold;
+    margin-bottom: 0.9375rem;
+}
+main {
+    padding-top: 3.5rem;
+}
+h1:before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 1rem;
+    width: 5rem;
+    height: 0.25rem;
+    background: #fecc00;
+}
+
+#wrap {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+    background-color: #fecc00;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fecc00;
+    height: 50px;
+}
+
+nav.open .burger_nav {
+    left: 0;
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.burger {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.loop {
+    padding: 20px;
+    font-size: 25px;
+}
+
+.user {
+    padding: 10px;
+    font-size: 25px;
+}
+.header-main-logo-img {
+    margin-left: 99px;
+    width: 170px;
+}
+.menu {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    padding: 15px;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.chevron {
+    display: none;
+}
+.titrefilm {
+    font-weight: 700;
+    font-size: 0.8125rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.soustitre {
+    font-family: Arial, Sans-Serif;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    color: #b3b3b3;
+}
+
+.slider {
+    display: grid;
+    overflow-y: scroll;
+    grid-template-columns: repeat(5, 147px);
+    grid-gap: 20px;
+    position: relative;
+}
+
+.slideritems {
+    width: 147px;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: grid;
+    grid-gap: 20px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.elt > a {
+    font-family: "Arial";
+    font-size: 0.8125rem;
+    color: #333;
+    text-decoration: none;
+    outline: none;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.prochainement {
+    font-family: montserratRegular, Arial, Sans-Serif;
+    color: #b3b3b3;
+    font-size: 0.75rem;
+}
+
+.lastitems {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 0.8125rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    color: #b3b3b3;
+}
+
+.play {
+    color: #2b2b2b;
+    text-decoration: none;
+    font-size: 1rem;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    list-style-type: none;
+}
+
+.ensalle {
+    color: #eabb00;
+    background-color: #ffea94;
+    font-family: "Arial";
+    width: 100%;
+    text-align: center;
+    font-size: 0.5625rem;
+    border-radius: 1rem;
+    padding: 0.125rem 0.625rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.newscinema {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    position: relative;
+    text-align: right;
+}
+
+main {
+    margin-left: 10px;
+    margin-right: 8px;
+}
+h5 {
+    color: #fecc00;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    padding-top: 13px;
+}
+
+.def {
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding-top: 5px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    grid-gap: 0.9375rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5625rem;
+    color: #333;
+    text-transform: uppercase;
+    padding: 1.25rem 0.625rem 0;
+    font-weight: bold;
+    margin-bottom: 0.9375rem;
+}
+
+h2:before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 1rem;
+    width: 5rem;
+    height: 0.25rem;
+    background: #fecc00;
+}
+
+.rollerslide {
+    display: flex;
+    overflow-y: scroll;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.nav-item-logo {
+    display: grid;
+    overflow-y: scroll;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.soustitres {
+    color: #b3b3b3;
+    font-family: Arial, Sans-Serif;
+    font-size: 0.75rem;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.img_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    grid-gap: 0.9375rem;
+}
+
+.slider_container {
+    display: grid;
+    overflow-y: scroll;
+    grid-template-columns: repeat(8, 100px);
+    grid-gap: 20px;
+    position: relative;
+}
+.nav-item-logo {
+    padding: 15px;
+    border: 1px solid #b3b3b3;
+}
+
+footer {
+    background-color: #2b2b2b;
+    color: #d8d8d8;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    font-family: Arial, Sans-Serif;
+    gap: 2px;
+    margin: auto;
+    font-size: 0.8125rem;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.description {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3%;
+    margin-top: 3%;
+    border-bottom: 1px solid #ececec;
+}
+
+.iconify-icon {
+    font-size: 2.8125rem;
+    vertical-align: middle;
+}
+.suivez-nous {
+    padding: 0.625rem 0.625rem 0;
+    border-bottom: solid 1px #3b3b3b;
+}
+.mobile {
+    padding: 0.625rem 0.625rem 0;
+    border-bottom: solid 1px #3b3b3b;
+}
+.social {
+    margin-bottom: 1.875rem;
+    text-align: center;
+    font-size: 0.8125rem;
+}
+.title-footer {
+    font-size: 0.8125rem;
+    text-align: center;
+    font-family: Arial, Sans-Serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    line-height: 1.25rem;
+    color: #d8d8d8;
+    margin-top: 1%;
+}
+.os {
+    margin-bottom: 1.875rem;
+    text-align: center;
+    font-size: 0.8125rem;
+}
+
+.cinema {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+}
+.pays {
+    font-size: 12px;
+    color: #d8d8d8;
+    font-family: "Arial";
+    display: inline;
+    line-height: 1.25rem;
+    text-decoration: none;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3px;
+    float: left;
+}
+.test {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 1px;
+}
+.mention {
+    text-align: center;
+    padding: 0 0.9375rem;
+    margin-bottom: 0.3125rem;
+    font-family: "Arial";
+    display: inline;
+}
+.num {
+    color: #fecc00;
+    font-weight: 700;
+}
+.p-footer {
+    color: #d8d8d8;
+    font-size: 12px;
+    margin-top: 2%;
+}
+.footer-img {
+    text-align: center;
+    padding: 10px 0;
+}
+.logo-footer {
+    width: 120px;
+    height: 34px;
+}
+.webedia {
+    width: 315px;
+    height: 26px;
+}
+
+.liste {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.liste img {
+    width: 147px;
+}
+
+.liste:first-child {
+    flex-direction: column;
+}
+
+.burger_nav {
+    position: absolute;
+    top: 2.1rem;
+    left: -18.75rem;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 0.625rem;
+    height: calc(100vh - 3.125rem);
+    background-color: #333;
+    width: 18.75rem;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.nav_class {
+    display: block;
+    padding: 0.625rem 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Sans-Serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1px;
+}
+nav input {
+    display: none;
+}
+
+.search_btn {
+    display: none;
+}
+body {
+    font-family: "Montserrat", Arial, Sans-Serif;
+    background-color: white;
+}
+.news-item {
+    padding-bottom: 0.9375rem;
+    border-bottom: 1px solid #e7e7e7;
+    position: relative;
+}
+.grid {
+    gap: 0.9375rem;
+    margin-bottom: 1.5625rem;
+    align-items: flex-start;
+    text-align: left;
+    grid-template-columns: 1fr;
+}
+
+.news-item {
+    padding-bottom: 0.9375rem;
+    border-bottom: 1px solid #e7e7e7;
+    position: relative;
+}
+
+.news-item .meta-title {
+    font: var(--S-font);
+    font-weight: bold;
+}
+
+.meta-category {
+    margin: 0 1.25rem 0.3125rem 0;
+    text-transform: uppercase;
+    color: #fecc00;
+    font: var(--XL-font);
+    font-size: 0.625rem;
+}
+
+.news .meta {
+    white-space: inherit;
+    text-overflow: inherit;
+    overflow: visible;
+    padding-right: 0;
+    max-width: none;
+}
+
+@media (min-width: 800px) {
+    .burger_nav {
+        display: flex;
+        flex-direction: row;
+        left: 0;
+        height: fit-content;
+        justify-content: space-between;
+        background-color: #fecc00;
+        width: 100%;
+        padding: 0 60px;
+    }
+    body {
+        background-color: #f2f2f2;
+        font-family: "Montserrat", Arial, Sans-Serif;
+    }
+    .cinema_container {
+        display: grid;
+        gap: 1.25rem;
+        grid-template-columns: auto auto;
+        padding: 0 4rem;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .loop {
+        display: none;
+    }
+    .user {
+        display: none;
+    }
+
+    .nav_class {
+        display: block;
+        color: black;
+
+        font-family: montserratRegular, Arial, Sans-Serif;
+        text-transform: uppercase;
+    }
+
+    nav input {
+        display: block;
+        font-size: 0.75rem;
+        border: none;
+        border-radius: 0.125rem 0 0 0.125rem;
+        padding: 0.625rem 0.875rem;
+        align-items: flex-start;
+        width: 25rem;
+    }
+
+    .search_btn {
+        display: block;
+        background-color: white;
+        display: flex;
+        width: 400px;
+        margin-left: 12rem;
+        padding: 0 0.75rem;
+        font-size: 1rem;
+    }
+
+    .loop_btn {
+        font-size: 0.75rem;
+    }
+
+    .chevron {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .container_sortie {
+        max-width: 625px;
+    }
+    .fa-chevron-left:before {
+        color: #d8d8d8;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
